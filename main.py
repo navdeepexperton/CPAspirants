@@ -316,6 +316,6 @@ def home():
         content = file_obj.read()
         #importing data into the spreadsheet CP LEAD <> LSQ
         gc.import_csv(spreadsheet.id, data=content)
-    return redirect("https://docs.google.com/spreadsheets/d/13U5SZo9a5K29o-XculKFFUJ-USEkZ_8YXlwGadmN7E8/edit#gid=1765149351")
+    return redirect("https://docs.google.com/spreadsheets/d/1Bbv1NmnAxXTC8Gm4A10hLcQGtYWsaHYgHmGbPHplbog/edit#gid=0")
 if __name__ == "__main__":
     app.run(debug=True)
